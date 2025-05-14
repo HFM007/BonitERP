@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="text-center text-gray-500 py-4 text-sm">
-      &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+    <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+      <div className="items-center grid-flow-col">
+        <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
+      </div>
     </footer>
   );
 }
