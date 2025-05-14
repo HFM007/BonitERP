@@ -1,13 +1,12 @@
-// import { useState } from 'react'
 import './App.css'
-import Home from './views/home'
+import Routes from './routes/index'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Home />
+      <Routes />
     </>
   )
 }
