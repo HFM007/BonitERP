@@ -1,5 +1,5 @@
 import './App.css'
-import Routes from './routes/index'
+import Routes from './routes/webRoute'
 
 function App() {
   // const [count, setCount] = useState(0)
